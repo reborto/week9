@@ -1,0 +1,27 @@
+@import "./../../libs/variables.scss";
+.header{
+    display: flex;
+    justify-content: space-between;
+
+
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+
+        a{
+            text-decoration: none;
+            color: $main;
+            transition: $baseTransition;
+
+        &:hover{
+            background-color: lighten($colProva 40%);
+        }
+        &.active{
+            background-color: $main;
+            color: $white;
+        }
+        
+    }
+        
+}}}
